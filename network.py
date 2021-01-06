@@ -64,9 +64,3 @@ def pronosticar(xx=[]):
     X = [xx[0], xx[1], 1]
     Yo = data.funcionEscalon(calculoFuncion(X))
     print(X[0], " or ", X[1], " = ", Yo)
-
-
-if __name__ == "__main__":
-    prueba = [[1, 1], [1, 0], [0, 0], [1, 1], [1, 1], [1, 0], [0, 0], [1, 1]]
-    for p in prueba:
-        pronosticar(p)
